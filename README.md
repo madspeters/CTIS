@@ -6,4 +6,5 @@ g = Hf
 
 
 ![CTIS_sim_fig1](https://user-images.githubusercontent.com/25078549/159441650-dad683ce-b5ed-4f01-be8a-174402e091c7.png)
-https://latex.codecogs.com/svg.image?\boldsymbol{g}&space;=&space;\boldsymbol{H}\boldsymbol{f}
+
+![CodeCogsEqn](https://user-images.githubusercontent.com/25078549/159443058-0fae7ac3-9f10-4586-9a00-22fd262dc6d7.svg)
