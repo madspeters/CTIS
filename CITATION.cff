@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Computed tomography imaging spectrometer simulator
+message: >-
+  If you use this software, please cite it as
+  detailed below.
+type: software
+authors:
+  - given-names: Mads
+    family-names: Svanborg Peters
+    email: mape@newtec.dk
+    affiliation: >-
+      University of Southern Denmark & Newtec
+      Engineering A/S
+    orcid: 'https://orcid.org/0000-0002-5761-4586'
