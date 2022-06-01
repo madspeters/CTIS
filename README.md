@@ -12,9 +12,9 @@ This repository contains the following MATLAB scripts
 and .mat files:
 
 - cube_HSI_colorchecker.mat: A $400\times200\times216$ hyperspectral cube captured by our pushbroom hyperspectral imaging system.
-- halogen25_mat:  A $1\times 25$ column vector containing the spectrum of the halogen lamps used as illumination for the wavelength range 400 nm to 740 nm.
-- wavelength25_mat: A $1\times 25$ column vector containing the wavelength axis for 25 spectral bands (400 nm to 740 nm)
-- sensitivity25.mat: A $9 \times 25$ matrix containing the diffraction sensitivity (diffraction efficiency of the DOE, transmission of optical system and sensor response) for the 9 diffraction order spots.
+- halogen25_mat:  $1\times 25$ column vector containing the spectrum of the halogen lamps used as illumination for the wavelength range 400 nm to 740 nm.
+- wavelength25_mat: $1\times 25$ column vector containing the wavelength axis for 25 spectral bands (400 nm to 740 nm)
+- sensitivity25.mat: $9 \times 25$ matrix containing the diffraction sensitivity (diffraction efficiency of the DOE, transmission of optical system and sensor response) for the 9 diffraction order spots.
 
 
 ## Brief introduction to CTIS
