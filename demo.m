@@ -1,4 +1,4 @@
-% Example file for demonstration of system matrix H generation, simulation
+% Demo file for demonstration of system matrix H generation, simulation
 % of CTIS image g and reconstruction of hyperspectral cube f using
 % expectation maximization (EM)
 
@@ -52,7 +52,7 @@ plot(wave,illum,'LineWidth',2); grid on;
 xlabel('Wavelength [nm]'); ylabel('Normalized intensity'); title('Halogen lamp');
 axis([-inf inf -inf inf]); 
 
-%% Example for ideal CTIS system (no diff_sens, illum, PSF or noise)
+%% Demo for ideal CTIS system (no diff_sens, illum, PSF or noise)
 % Generate system matrix H
 H = generateH(x,y,z,b1,b2,shift,allOrders);
 
@@ -86,7 +86,7 @@ montage(cube_em,'DisplayRange',[-inf inf]);
 title('Visualization of reconstructed spectral bands'); colorbar;
 
 
-%% Example including diffraction sensitivity, illumination, PSF and noise
+%% Demo including diffraction sensitivity, illumination, PSF and noise
 % Generate system matrix H (PSF results in significant decrease in
 % sparsity and increase in computation time and memomory requirements)
 H = generateH(x,y,z,b1,b2,shift,allOrders,diff_sens,illum,sigma_psf);
