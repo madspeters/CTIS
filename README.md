@@ -7,7 +7,7 @@ This repository contains the following MATLAB scripts
 
 - _em.m_:        Expectation Maximization (EM) algorithm (see function for details, inputs and output)
 - _generateH.m_: Generate a system matrix $\boldsymbol{H}$ for a computed tomography imaging spectrometer (see function for details, inputs and output)
-- _demo.m_:      Demonstration file showing generation of system matrix $\boldsymbol{H}$, simulation of CTIS image $\boldsymbol{g}$ and reconstruction of hyperpsectral cube $\boldsymbol{f}$ using the EM algorithm.
+- _demo.m_:      Demonstration file showing generation of system matrix $\boldsymbol{H}$, simulation of CTIS image $g$ and reconstruction of hyperspectral cube $f$ using the EM algorithm.
 
 and .mat files:
 
@@ -21,8 +21,8 @@ and .mat files:
 A CTIS system is described by the linear imaging equation:
 $$\boldsymbol{g} = \boldsymbol{H}\boldsymbol{f}+ \boldsymbol{n},$$
 
-where $\boldsymbol{g}$ is a column vector with $q^2$ elements and $\boldsymbol{f}$ is the vectorized hyperspectral cube with $r = x \cdot y \cdot z$ voxels, where $x$, $y$ and $z$ denote the two spatial dimensions and the number of spectral channels, respectively, while $\boldsymbol{n}$ corresponds to a random noise vector.
-The $q^2 \times r$ system matrix $\boldsymbol{H}$ describes the projection of the $i$-th voxel in $\boldsymbol{f}$ to the $j$-th pixels in $\boldsymbol{g}$ - equivalent to the nine projections shown below, which consist of a central zeroth order, surrounded by eight first orders.
+where $\boldsymbol{g}$ is a column vector with $q^2$ elements and $f$ is the vectorized hyperspectral cube with $r = x \cdot y \cdot z$ voxels, where $x$, $y$ and $z$ denote the two spatial dimensions and the number of spectral channels, respectively, while $n$ corresponds to a random noise vector.
+The $q^2 \times r$ system matrix $H$ describes the projection of the $i$-th voxel in $f$ to the $j$-th pixels in $g$ - equivalent to the nine projections shown below, which consist of a central zeroth order, surrounded by eight first orders.
 
 ![CTIS_sim_fig1](https://user-images.githubusercontent.com/25078549/159441650-dad683ce-b5ed-4f01-be8a-174402e091c7.png)
 
