@@ -28,5 +28,5 @@ The $q^2 \times r$ system matrix $H$ describes the projection of the $i$-th voxe
 
 
 ## References
-<a id="1">[1]</a> 
-M. J. Ahlebæk, M. S. Peters, W.-C. Huang, M. T. Frandsen, R. L. Eriksen, and B. Jørgensen, “The hybrid approach - Convolutional Neural Networks and Expectation Maximization Algorithm - for Tomographic Reconstruction of Hyperspectral Images,” 2022, DOI: [10.48550/ARXIV.2205.15772](https://doi.org/10.48550/arXiv.2205.15772).
+M.J. Ahlebæk, M.S. Peters, W.-C. Huang, M.T. Frandsen, R.L. Eriksen and B. Jørgensen, “The hybrid approach — convolutional neural networks and expectation maximisation algorithm — for tomographic reconstruction of hyperspectral images”, J. Spectral Imaging 12, a1 (2023), DOI: 
+[10.1255/jsi.2023.a1](https://www.impopen.com/jsi-abstract/I12_a1)
